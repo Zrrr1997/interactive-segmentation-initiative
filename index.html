@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Segmentation Initiative</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #222;
+    }
+    header {
+      background: #0b2545;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #0b2545;
+      margin-top: 2rem;
+    }
+    .people-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+    .person-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: center;
+      background: #fafafa;
+    }
+    .person-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 0.5rem;
+    }
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+    .image-grid img {
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      margin-top: 3rem;
+      background: #f4f4f4;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Interactive Segmentation Initiative</h1>
+    <p>A collaborative effort toward standardization and progress in medical interactive segmentation</p>
+  </header>
+
+  <section id="mission">
+    <h2>Mission Statement</h2>
+    <p>
+      In the previous chapter, we identified critical gaps in the field of medical interactive segmentation, most prominently the absence of standardized benchmarks that enable fair and reproducible comparison between methods. We view this as a global issue that can only be addressed through coordinated, community-driven collaboration rather than isolated individual efforts.
+    </p>
+    <p>
+      To address this, we established the <strong>Interactive Segmentation Initiative</strong> — a worldwide collaborative framework uniting research groups through the joint organization of international interactive segmentation challenges.
+    </p>
+    <p>
+      Our goals include:
+    </p>
+    <ul>
+      <li>Defining standardized, reproducible interactive segmentation challenges</li>
+      <li>Establishing shared evaluation metrics and interaction simulations</li>
+      <li>Providing unified baselines for fair cross-challenge comparison</li>
+      <li>Deriving actionable insights on what constitutes a successful interactive segmentation model</li>
+    </ul>
+  </section>
+
+  <section id="people">
+    <h2>People Involved</h2>
+    <div class="people-grid">
+      <!-- Template person card -->
+      <div class="person-card">
+        <img src="images/person-placeholder.jpg" alt="Person" />
+        <h3>Person Name</h3>
+        <p>Affiliation</p>
+      </div>
+      <div class="person-card">
+        <img src="images/person-placeholder.jpg" alt="Person" />
+        <h3>Person Name</h3>
+        <p>Affiliation</p>
+      </div>
+      <div class="person-card">
+        <img src="images/person-placeholder.jpg" alt="Person" />
+        <h3>Person Name</h3>
+        <p>Affiliation</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="simulation-images">
+    <h2>Interaction Simulation Examples</h2>
+    <p>
+      Below are example images illustrating how we simulate user interactions and evaluate interactive segmentation performance.
+    </p>
+    <div class="image-grid">
+      <img src="images/example1.jpg" alt="Simulation Example 1" />
+      <img src="images/example2.jpg" alt="Simulation Example 2" />
+      <img src="images/example3.jpg" alt="Simulation Example 3" />
+    </div>
+  </section>
+
+  <section id="takeaways">
+    <h2>Key Takeaways</h2>
+    <ul>
+      <li>Shared evaluation metrics enable cross-challenge comparability.</li>
+      <li>Interaction simulation is essential for reproducible benchmarking.</li>
+      <li>Baseline models help identify strengths and weaknesses across datasets.</li>
+      <li>Consolidated results reveal essential components for strong interactive segmentation models.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Interactive Segmentation Initiative</p>
+  </footer>
+</body>
+</html>
+
